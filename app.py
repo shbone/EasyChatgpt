@@ -9,9 +9,7 @@ import markdown.extensions.codehilite
 
 os.environ["http_proxy"] = "http://127.0.0.1:7890"
 os.environ["https_proxy"] = "http://127.0.0.1:7890"
-# openai.api_key = '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'
-# openai.api_key = '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'
-openai.api_key = "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"
+
 app = Flask(__name__)
 messages = []
 
